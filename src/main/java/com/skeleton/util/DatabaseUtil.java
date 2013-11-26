@@ -48,22 +48,22 @@ public class DatabaseUtil {
         return executePreparedStatement(insert,args);
     }
 
-    public static List<Object> findWithSql(Table table,String whereStatement,String... id) {
+    public static List<Object> find(Table table,String whereStatement,String... id) {
         String sql = "SELECT * FROM "+ table.getTitle() +" "+ whereStatement;
-        return executeCallableStatement(table,sql,id);
+        return execute(table,sql,id);
     }
 
-    public static int countWithSql(Table table,String whereStatement,String... id) {
+    public static int count(Table table,String whereStatement,String... id) {
         String sql = "SELECT count(*) FROM "+ table.getTitle() +" "+ whereStatement;
-        return executeCallableStatement(sql,id);
+        return execute(sql,id);
     }
 
-    public static int getIdWithSql(Table table,String whereStatement,String... id) {
+    public static int getId(Table table,String whereStatement,String... id) {
         String sql = "SELECT id FROM "+ table.getTitle() +" "+ whereStatement;
-        return executeCallableStatement(sql,id);
+        return execute(sql,id);
     }
 
-    private static List<Object> executeCallableStatement(Table table,String sql, String[] args) {
+    private static List<Object> execute(Table table,String sql, String[] args) {
         try {
             List<Object> response = new ArrayList<Object>();
             getMysqlJdbcDriver();
@@ -93,7 +93,7 @@ public class DatabaseUtil {
         return new ArrayList<Object>();
     }
 
-    private static int executeCallableStatement(String sql, String[] args) {
+    private static int execute(String sql, String[] args) {
         int records = 0;
         try {
             getMysqlJdbcDriver();

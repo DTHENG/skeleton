@@ -24,12 +24,12 @@ public class Instagram extends Table {
         instagram.setLongitude(rs.getDouble("longitude"));
         instagram.setLocationName(rs.getString("locationName"));
         instagram.setLocationId(rs.getString("locationId"));
-        for ( Object like : DatabaseUtil.findWithSql(DatabaseUtil.Table.INSTAGRAM_LIKE, "WHERE instagramId = ? ORDER BY id DESC", rs.getInt("id") + "") ) {
+        for ( Object like : DatabaseUtil.find(DatabaseUtil.Table.INSTAGRAM_LIKE, "WHERE instagramId = ? ORDER BY id DESC", rs.getInt("id") + "") ) {
             if ( like instanceof InstagramLike ) {
                 instagram.addLike((InstagramLike) like);
             }
         }
-        for ( Object content : DatabaseUtil.findWithSql(DatabaseUtil.Table.INSTAGRAM_CONTENT, "WHERE instagramId = ?",
+        for ( Object content : DatabaseUtil.find(DatabaseUtil.Table.INSTAGRAM_CONTENT, "WHERE instagramId = ?",
                 rs.getInt("id")+"") ) {
             if ( content instanceof InstagramContent ) {
                 instagram.addContent((InstagramContent) content);
@@ -40,7 +40,7 @@ public class Instagram extends Table {
 
     public static List<Instagram> getMostRecentInstagrams(int limit) {
         List<Instagram> instagrams = new ArrayList<Instagram>();
-        for ( Object instagram : DatabaseUtil.findWithSql(DatabaseUtil.Table.INSTAGRAM, "ORDER BY createdTime DESC LIMIT "+limit) ) {
+        for ( Object instagram : DatabaseUtil.find(DatabaseUtil.Table.INSTAGRAM, "ORDER BY createdTime DESC LIMIT "+limit) ) {
             if ( instagram instanceof Instagram ) {
                 instagrams.add((Instagram) instagram);
             }

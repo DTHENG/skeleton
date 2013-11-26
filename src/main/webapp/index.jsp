@@ -8,32 +8,42 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Java Maven Jetty Skeleton Project</title>
-        <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="/static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="/static/main.css" rel="stylesheet" media="screen">
     </head>
     <body>
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
         <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Java Maven Jetty Skeleton</a>
+            </div>
+        </div>
+    </header>
 
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <a class="brand" href="#">Java Maven Jetty Skeleton</a>
+
+
+    <div class="container bs-docs-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="bs-sidebar hidden-print affix-top" role="complementary">
                     </div>
                 </div>
+                <div class="col-md-6" role="main">
+                    <p>&#160;</p>
+                    <p>Database Storage: <%= DatabaseUtil.count(DatabaseUtil.Table.INSTAGRAM, "") %></p>
+                    <p>Java Properties File Storage: <%= Config.getProperty("database_connection") %></p>
+                    <p>Session storage: <%= com.skeleton.util.WebUtil.getSessionAttribute("value", request) %></p>
+                    <form class="form-inline" action="<%= com.skeleton.util.WebUtil.buildUrl(request, "/main") %>" method="post">
+                        <input name="value" value="">
+                        <input type="hidden" name="operation" value="test">
+                        <button class="btn btn-block btn-danger" type="submit">Update</button>
+                    </form>
+                </div>
             </div>
-            <p>Database Storage: <%= DatabaseUtil.countWithSql(DatabaseUtil.Table.INSTAGRAM, "") %></p>
-            <p>Java Properties File Storage: <%= Config.getProperty("database_connection") %></p>
-            <p>Session storage: <%= com.skeleton.util.WebUtil.getSessionAttribute("value", request) %></p>
-            <form class="form-inline" action="<%= com.skeleton.util.WebUtil.buildUrl(request, "/main") %>" method="post">
-                <input name="value" value="">
-                <input type="hidden" name="operation" value="test">
-                <button class="btn btn-block btn-danger" type="submit">Update</button>
-            </form>
-
         </div>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/jquery.js"></script>
+        <script src="/static/bootstrap/js/bootstrap.js"></script>
+
     </body>
 </html>
