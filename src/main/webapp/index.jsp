@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Java Maven Jetty Skeleton Project</title>
+        <title>Skeleton</title>
         <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="/static/main.css" rel="stylesheet" media="screen">
     </head>
@@ -15,7 +15,7 @@
         <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Java Maven Jetty Skeleton</a>
+                    <a href="#" class="navbar-brand">Skeleton</a>
                 </div>
             </div>
         </header>
