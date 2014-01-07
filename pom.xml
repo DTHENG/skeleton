@@ -4,6 +4,7 @@
     <artifactId>java-maven-jetty-starter</artifactId>
     <version>0.1-SNAPSHOT</version>
     <properties>
+        <test>*</test>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <googlehttpclient.version>1.17.0-rc</googlehttpclient.version>
         <jetty.version>6.1.14</jetty.version>
@@ -147,5 +148,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
