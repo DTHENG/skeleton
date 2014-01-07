@@ -88,6 +88,11 @@
             <artifactId>activeobjects-core</artifactId>
             <version>0.9-m10</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
