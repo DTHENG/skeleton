@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.skeleton</groupId>
-    <artifactId>java-maven-jetty-starter</artifactId>
+    <artifactId>skeleton</artifactId>
     <version>0.1-SNAPSHOT</version>
     <properties>
         <test>*</test>
@@ -14,11 +14,6 @@
         <servlet.version>2.5</servlet.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.google.http-client</groupId>
-            <artifactId>google-http-client-jackson2</artifactId>
-            <version>${googlehttpclient.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.mortbay.jetty</groupId>
             <artifactId>jetty</artifactId>
