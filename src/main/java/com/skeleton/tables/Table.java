@@ -1,5 +1,8 @@
 package com.skeleton.tables;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class Table {
 
     int id = 0;

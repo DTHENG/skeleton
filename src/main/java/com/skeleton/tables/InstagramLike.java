@@ -3,6 +3,9 @@ package com.skeleton.tables;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class InstagramLike extends Table {
 
     private long instagramId = 0l;

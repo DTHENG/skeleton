@@ -12,6 +12,9 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class AuthFilter implements Filter {
 
     private static final Logger LOG = Logger.getLogger(AuthFilter.class.getSimpleName());

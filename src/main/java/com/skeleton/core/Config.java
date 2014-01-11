@@ -8,6 +8,9 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.logging.Logger;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class Config {
 
     private static final Logger LOG = Logger.getLogger(AuthFilter.class.getSimpleName());

@@ -24,8 +24,8 @@
                 <div class="col-md-6" role="main">
                     <p>&#160;</p>
                     <p>Database Storage: <%= DatabaseUtil.count(DatabaseUtil.Table.INSTAGRAM, "") %></p>
-                    <p>Java Properties File Storage: <%= Config.getProperty("database_connection") %></p>
-                    <p>Session storage: <%= com.skeleton.util.WebUtil.getSessionAttribute("value", request) %></p>
+                    <p>Properties File Storage: <%= Config.getProperty("database_connection") %></p>
+                    <p>Session Storage: <%= com.skeleton.util.WebUtil.getSessionAttribute("value", request) %></p>
                     <form class="form-inline" action="<%= com.skeleton.util.WebUtil.buildUrl(request, "/main") %>" method="post">
                         <input name="value" value="" placeholder="Session value">
                         <input type="hidden" name="operation" value="test">

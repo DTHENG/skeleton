@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Properties;
 import java.util.logging.Logger;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class DatabaseUtil {
 
     private static final Logger LOG = Logger.getLogger(DatabaseUtil.class.getSimpleName());

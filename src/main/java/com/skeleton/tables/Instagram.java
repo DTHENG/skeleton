@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class Instagram extends Table {
 
     public static Instagram getInstagramFromSqlResultSet(ResultSet rs) throws SQLException {

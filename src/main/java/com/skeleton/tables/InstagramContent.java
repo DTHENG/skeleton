@@ -3,6 +3,9 @@ package com.skeleton.tables;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * @author Daniel Thengvall
+ */
 public class InstagramContent extends Table {
 
     private int instagramId = 0;
