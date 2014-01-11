@@ -1,8 +1,8 @@
-# [Skeleton](http://skeleton.dtheng.com)
+# [skeleton4j](http://skeleton4j.com)
 
-Skeleton is a sleek, intuitive, and powerful full stack java framework for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
+Skeleton4j is a sleek, intuitive, and powerful full stack java framework for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
 
-To get started, check out <http://skeleton.dtheng.com>!
+To get started, check out <http://skeleton4j.com>!
 
 ## Table of contents
 
@@ -16,12 +16,12 @@ Clone the repo: `git clone https://github.com/DTHENG/skeleton.git`.
 
 Importing the project:
 
-#### IntelliJ
+##### IntelliJ
 - Click *File > Import Project...*.
 - Point to the cloned directory.
 - Select *Import from existing model > Maven*
 
-#### Eclipse
+##### Eclipse
 - Install the [m2e](http://eclipse.org/m2e/) plugin to enable improt from a maven pom file.
 - Click *File > Import... > Maven > Existing Maven Project*.
 - Point to the extracted directory and import the project.

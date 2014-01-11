@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Skeleton</title>
+        <title>skeleton4j - A java stack foundation</title>
         <link href="/static/css/foundation.min.css" rel="stylesheet" media="screen">
         <link href="/static/css/normalize.css" rel="stylesheet" media="screen">
         <script src="/static/js/vendor/modernizr.js"></script>
@@ -16,7 +16,7 @@
     <body>
         <div class="row">
             <div class="small-12 large-12 columns">
-                <a href="#" class="navbar-brand"><h1>Skeleton</h1></a>
+                <a href="#" class="navbar-brand"><h1>skeleton4j</h1></a>
             </div>
         </div>
         <div class="row">
