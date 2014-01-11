@@ -17,13 +17,13 @@ Clone the repo: `git clone https://github.com/DTHENG/skeleton.git`.
 Importing the project:
 
 ##### IntelliJ
-- Click *File > Import Project...*.
+- Click **File > Import Project...**.
 - Point to the cloned directory.
-- Select *Import from existing model > Maven*
+- Select **Import from existing model > Maven**
 
 ##### Eclipse
 - Install the [m2e](http://eclipse.org/m2e/) plugin to enable improt from a maven pom file.
-- Click *File > Import... > Maven > Existing Maven Project*.
+- Click **File > Import... > Maven > Existing Maven Project**.
 - Point to the extracted directory and import the project.
 
 Running a local development server:
