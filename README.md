@@ -95,4 +95,4 @@ skeleton/
 
 ## Copyright and license
 
-Copyright 2011-2014 Daniel, Inc. under [the MIT license](LICENSE).
+Copyright 2011-2014 Daniel Thengvall, under [the MIT license](http://opensource.org/licenses/MIT).
