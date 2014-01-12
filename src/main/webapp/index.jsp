@@ -148,7 +148,8 @@
 |   |   |           ├── DatabaseUtil.java
 |   |   |           └── WebUtil.java
 |   |   ├── resources
-|   |   |   └── skeleton.properties
+|   |   |   ├── skeleton.properties
+|   |   |   └── skeleton.xml
 |   |   └── webapp
 |   |       ├── static
 |   |       |   ├── css
