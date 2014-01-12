@@ -114,8 +114,8 @@
                     <li>Point to the extracted directory and import the project.</li>
                 </ul>
                 <p>Running a local development server:</p>
-                <p><kbd>$ mvn jetty:run</kbd></p>
-                <p>Then open <kbd>http://localhost:8080/</kbd> in a web browser.</p>
+                <p><kbd>$ mvn jetty:run -Djetty.port=8077</kbd></p>
+                <p>Then open <kbd>http://localhost:8077/</kbd> in a web browser.</p>
                 <p>Create a deployable war file:</p>
                 <p><kbd>$ mvn clean test compile war:war</kbd></p>
                 <h1>&#160;</h1>

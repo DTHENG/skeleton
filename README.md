@@ -32,9 +32,9 @@ Importing the project:
 
 Running a local development server:
 ```
-$ mvn jetty:run
+$ mvn jetty:run -Djetty.port=8077
 ```
-Then open `http://localhost:8080/` in a web browser.
+Then open `http://localhost:8077/` in a web browser.
 
 Create deployable war file:
 ```
