@@ -18,7 +18,7 @@
         <div style="background:#074e68;width:100%;float:left;">
             <div class="row">
                 <div class="small-12 large-12 columns">
-                    <a href="#" class="navbar-brand"><h1 style="color:#fff;">skeleton4j</h1></a>
+                    <a href="/" class="navbar-brand"><h1 style="color:#fff;">skeleton4j</h1></a>
                 </div>
             </div>
             <hr style="border-top:1px solid rgba(255, 255, 255, 0.2);margin-top:0;"/>
