@@ -4,13 +4,13 @@ Skeleton4j is a sleek, intuitive, and powerful java framework for faster and eas
 
 To get started, check out <http://skeleton4j.com>!
 
-## Table of contents
+### Table of contents
 
  - [Quick start](#quick-start)
  - [Authors](#authors)
  - [Copyright and license](#copyright-and-license)
 
-## Quick start
+### Quick start
 
 Prerequisites:
 - Java 1.7
@@ -95,7 +95,7 @@ skeleton/
 ```
 
 
-## Authors
+### Authors
 
 **Daniel Thengvall**
 
@@ -103,6 +103,6 @@ skeleton/
 - <http://github.com/DTHENG>
 
 
-## Copyright and license
+### Copyright and license
 
 Copyright 2011-2014 Daniel Thengvall, under [the MIT license](http://opensource.org/licenses/MIT).
