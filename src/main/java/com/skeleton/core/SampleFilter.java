@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @author Daniel Thengvall
  */
-public class AuthFilter implements Filter {
+public class SampleFilter implements Filter {
 
-    private static final Logger LOG = Logger.getLogger(AuthFilter.class.getSimpleName());
+    private static final Logger LOG = Logger.getLogger(SampleFilter.class.getSimpleName());
 
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain)  throws IOException, ServletException {
 
@@ -27,6 +27,9 @@ public class AuthFilter implements Filter {
                 filterChain.doFilter(request, response);
                 return;
             }
+
+            // do something here
+
             filterChain.doFilter(request, response);
         } else {
             LOG.warning("Unexpected non HTTP servlet response. Proceeding anyway.");

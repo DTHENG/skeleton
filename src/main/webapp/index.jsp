@@ -67,7 +67,7 @@
                                 <p>Returns <kbd><%= WebUtil.getSessionAttribute("value", request) %></kbd></p>
                             </div>
                             <div class="small-12 medium-4 large-4 columns">
-                                <form action="<%= com.skeleton.util.WebUtil.buildUrl(request, "/main") %>" method="post">
+                                <form action="<%= com.skeleton.util.WebUtil.buildUrl(request, "/sampleServlet") %>" method="post">
                                     <div class="row">
                                         <div class="large-8 medium-8 large-8 columns">
                                             <input name="value" type="text" placeholder="New Session Value" style="height:44px;"/>
@@ -136,9 +136,9 @@
 |   |   |   └── com/
 |   |   |       └── skeleton/
 |   |   |           ├── core/
-|   |   |           |   ├── AuthFilter.java
 |   |   |           |   ├── Config.java
-|   |   |           |   └── MainServlet.java
+|   |   |           |   ├── SampleFilter.java
+|   |   |           |   └── SampleServlet.java
 |   |   |           ├── tables/
 |   |   |           |   ├── Instagram.java
 |   |   |           |   ├── InstagramContent.java
@@ -150,7 +150,7 @@
 |   |   |               └── WebUtil.java
 |   |   ├── resources/
 |   |   |   ├── skeleton.properties
-|   |   |   └── skeleton.xml
+|   |   |   └── skeleton.sql
 |   |   └── webapp/
 |   |       ├── static/
 |   |       |   ├── css/

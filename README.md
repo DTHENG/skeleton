@@ -54,9 +54,9 @@ skeleton/
 |	|	|	└── com/
 |	|	|	    └── skeleton/
 |	|	|		    ├── core/
-|	|	|		    |	├── AuthFilter.java
 |	|	|		    |	├── Config.java
-|	|	|		    |	└── MainServlet.java
+|	|	|		    |	├── SampleFilter.java
+|	|	|		    |	└── SampleServlet.java
 |	|	|		    ├──	tables/
 |	|	|		    |	├── Instagram.java
 |	|	|		    |	├── InstagramContent.java
