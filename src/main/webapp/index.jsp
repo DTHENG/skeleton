@@ -24,7 +24,7 @@
             <hr style="border-top:1px solid rgba(255, 255, 255, 0.2);margin-top:0;"/>
             <div class="row">
                 <div class="small-12 medium-6 large-5 columns">
-                    <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful enterprise grade java framework for faster and easier web development</h4>
+                    <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java framework for faster and easier web development</h4>
                     <h6>&#160;</h6>
                     <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download</a>
                     <h1>&#160;</h1>
@@ -90,6 +90,15 @@
                 <h6>&#160;</h6>
                 <h3>Quick start</h3>
                 <h6>&#160;</h6>
+                <p>Prerequisites:</p>
+                <ul>
+                    <li>
+                        Java 1.7
+                    </li>
+                    <li>
+                        <a href="http://maven.apache.org/" target="_blank">Apache Maven</a> - used for part of the build process
+                    </li>
+                </ul>
                 <p>Clone the repo: <kbd>git clone https://github.com/DTHENG/skeleton.git</kbd>.</p>
                 <p>Importing the project:</p>
                 <h5><strong>IntelliJ</strong></h5>
@@ -106,6 +115,7 @@
                 </ul>
                 <p>Running a local development server:</p>
                 <p><kbd>$ mvn jetty:run</kbd></p>
+                <p>Then open <kbd>http://localhost:8080/</kbd> in a web browser.</p>
                 <p>Create a deployable war file:</p>
                 <p><kbd>$ mvn clean test compile war:war</kbd></p>
                 <h1>&#160;</h1>
