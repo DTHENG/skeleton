@@ -30,6 +30,7 @@ Running a local development server:
 ```
 $ mvn jetty:run
 ```
+Then open ```http://localhost:8080/``` in a web browser.
 
 Create deployable war file:
 ```
