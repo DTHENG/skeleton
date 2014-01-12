@@ -49,33 +49,34 @@ Within the download you'll find the following directories and files, logically g
 ```
 skeleton/
 ├── src/
-|	├── main
-|	|	├── java
-|	|	|	└── com.skeleton
-|	|	|		├── core
-|	|	|		|	├── AuthFilter.java
-|	|	|		|	├── Config.java
-|	|	|		|	└── MainServlet.java
-|	|	|		├──	tables
-|	|	|		|	├── Instagram.java
-|	|	|		|	├── InstagramContent.java
-|	|	|		|	├── InstagramLike.java
-|	|	|		|	├── InstagramType.java
-|	|	|		|	└── Table.java
-|	|	|		└──	util
-|	|	|			├── DatabaseUtil.java
-|	|	|			└── WebUtil.java
-|	|	├── resources
+|	├── main/
+|	|	├── java/
+|	|	|	└── com/
+|	|	|	    └── skeleton/
+|	|	|		    ├── core/
+|	|	|		    |	├── AuthFilter.java
+|	|	|		    |	├── Config.java
+|	|	|		    |	└── MainServlet.java
+|	|	|		    ├──	tables/
+|	|	|		    |	├── Instagram.java
+|	|	|		    |	├── InstagramContent.java
+|	|	|		    |	├── InstagramLike.java
+|	|	|		    |	├── InstagramType.java
+|	|	|		    |	└── Table.java
+|	|	|		    └──	util/
+|	|	|		    	├── DatabaseUtil.java
+|	|	|		    	└── WebUtil.java
+|	|	├── resources/
 |	|	|	├── skeleton.properties
 |	|	|	└── skeleton.sql
-|	|	└── webapp
-|	|		├── static
-|	|		|	├── css
+|	|	└── webapp/
+|	|		├── static/
+|	|		|	├── css/
 |	|		|	|	├── foundation.css
 |	|		|	|	├── foundation.min.css
 |	|		|	|	└── normalize.css
-|	|		|	└── js
-|	|		|		└── vendor
+|	|		|	└── js/
+|	|		|		└── vendor/
 |	|		|			├── custom.modernizr.js
 |	|		|			├── fastclick.js
 |	|		|			├── foundation.min.js
@@ -84,11 +85,11 @@ skeleton/
 |	|		|			├── jquery.js
 |	|		|			├── modernizr.js
 |	|		|			└── placeholder.js
-|	|		├── WEB-INF
+|	|		├── WEB-INF/
 |	|		|	└── web.xml
 |	|		└── index.html
-|	└── test
-|		└── java
+|	└── test/
+|		└── java/
 |			└── WebUtilTest.java
 ├── pom.xml
 ├── README.md
