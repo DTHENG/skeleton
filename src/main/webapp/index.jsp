@@ -26,7 +26,7 @@
                 <div class="small-12 medium-6 large-7 columns">
                     <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java foundation for faster and easier web development</h4>
                     <h6>&#160;</h6>
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download</a>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">184 KB</span></a>
                     <h1>&#160;</h1>
                 </div>
             </div>
@@ -208,7 +208,7 @@
                     <h1>&#160;</h1>
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download</a>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">184 KB</span></a>
                 </div>
             </div>
         </div>
