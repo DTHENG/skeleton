@@ -12,7 +12,11 @@ To get started, check out <http://skeleton4j.com>!
 
 ## Quick start
 
-Clone the repo: `git clone https://github.com/DTHENG/skeleton.git`.
+Prerequisites:
+- Java 1.7
+- [Apache Maven](http://maven.apache.org/) - used for part of the build process
+
+Clone the repo: `$ git clone https://github.com/DTHENG/skeleton.git`.
 
 Importing the project:
 
@@ -30,7 +34,7 @@ Running a local development server:
 ```
 $ mvn jetty:run
 ```
-Then open ```http://localhost:8080/``` in a web browser.
+Then open `http://localhost:8080/` in a web browser.
 
 Create deployable war file:
 ```

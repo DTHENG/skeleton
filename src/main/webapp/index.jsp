@@ -99,7 +99,7 @@
                         <a href="http://maven.apache.org/" target="_blank">Apache Maven</a> - used for part of the build process
                     </li>
                 </ul>
-                <p>Clone the repo: <kbd>git clone https://github.com/DTHENG/skeleton.git</kbd>.</p>
+                <p>Clone the repo: <kbd>$ git clone https://github.com/DTHENG/skeleton.git</kbd>.</p>
                 <p>Importing the project:</p>
                 <h5><strong>IntelliJ</strong></h5>
                 <ul>
