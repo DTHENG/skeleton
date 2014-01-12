@@ -26,14 +26,16 @@
                 <div class="small-12 medium-6 large-7 columns">
                     <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java foundation for faster and easier web development</h4>
                     <h6>&#160;</h6>
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">184 KB</span></a>
-                    <h1>&#160;</h1>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">186 KB</span></a>
+                    <h6>&#160;</h6>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="small-12 large-12 columns">
-                <p>&#160;</p>
+                <h6>&#160;</h6>
+                <h3>Starter Features</h3>
+                <h6>&#160;</h6>
                 <div class="row">
                     <div class="small-12 medium-12 large-12 columns">
                         <h5><strong>Database</strong></h5>
@@ -43,7 +45,6 @@
                                 <p>Returns <kbd><%= DatabaseUtil.count(DatabaseUtil.Table.INSTAGRAM, "") %></kbd></p>
                             </div>
                         </div>
-                        <h3>&#160;</h3>
                     </div>
                     <div class="small-12 medium-12 large-12 columns">
                         <h5><strong>Properties</strong></h5>
@@ -55,7 +56,6 @@
                                 <p>Returns <kbd><%= Config.getProperty("database_connection") %></kbd></p>
                             </div>
                         </div>
-                        <h3>&#160;</h3>
                     </div>
                     <div class="small-12 medium-12 large-12 columns">
                         <h5><strong>Session</strong></h5>
@@ -129,7 +129,7 @@
                 <h6>&#160;</h6>
                 <p>Within the download you&#39;ll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You&#39;ll see something like this:</p>
                 <div class="panel">
-                    <pre>skeleton/
+                    <pre style="line-height:1.4em;">skeleton/
 ├── src/
 |   ├── main/
 |   |   ├── java/
@@ -208,7 +208,7 @@
                     <h1>&#160;</h1>
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">184 KB</span></a>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">186 KB</span></a>
                 </div>
             </div>
         </div>
