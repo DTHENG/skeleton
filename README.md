@@ -1,6 +1,6 @@
 # [skeleton4j](http://skeleton4j.com)
 
-Skeleton4j is a sleek, intuitive, and powerful full stack java framework for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
+Skeleton4j is a sleek, intuitive, and powerful enterprise grade java framework for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
 
 To get started, check out <http://skeleton4j.com>!
 
@@ -29,6 +29,11 @@ Importing the project:
 Running a local development server:
 ```
 $ mvn jetty:run
+```
+
+Create deployable war file:
+```
+$ mvn clean test compile war:war
 ```
 
 
@@ -85,7 +90,7 @@ skeleton/
 ```
 
 
-## Author
+## Authors
 
 **Daniel Thengvall**
 
