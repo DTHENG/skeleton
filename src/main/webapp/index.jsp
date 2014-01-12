@@ -23,8 +23,8 @@
             </div>
             <hr style="border-top:1px solid rgba(255, 255, 255, 0.2);margin-top:0;"/>
             <div class="row">
-                <div class="small-12 medium-6 large-5 columns">
-                    <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java framework for faster and easier web development</h4>
+                <div class="small-12 medium-6 large-7 columns">
+                    <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java foundation for faster and easier web development</h4>
                     <h6>&#160;</h6>
                     <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download</a>
                     <h1>&#160;</h1>
@@ -204,7 +204,7 @@
             <div class="row">
                 <div class="small-12 medium-8 large-8 columns">
                     <h3 style="color:#666666;">Copyright and license</h3>
-                    <p style="color:#666666;">Copyright 2011-2014 Daniel Thengvall, under <a href="http://opensource.org/licenses/MIT" target="_blank" style="color:#666666;text-decoration:underline">the MIT license</a>.</p>
+                    <p style="color:#666666;">Copyright 2014 Daniel Thengvall, under <a href="http://opensource.org/licenses/MIT" target="_blank" style="color:#666666;text-decoration:underline">the MIT license</a>.</p>
                     <h1>&#160;</h1>
                 </div>
                 <div class="small-12 medium-4 large-4 columns">

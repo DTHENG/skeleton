@@ -1,6 +1,6 @@
 # [skeleton4j](http://skeleton4j.com)
 
-Skeleton4j is a sleek, intuitive, and powerful java framework for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
+Skeleton4j is a sleek, intuitive, and powerful java foundation for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
 
 To get started, check out <http://skeleton4j.com>!
 
@@ -107,4 +107,4 @@ skeleton/
 
 ### Copyright and license
 
-Copyright 2011-2014 Daniel Thengvall, under [the MIT license](http://opensource.org/licenses/MIT).
+Copyright 2014 Daniel Thengvall, under [the MIT license](http://opensource.org/licenses/MIT).
