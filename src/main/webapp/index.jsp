@@ -25,7 +25,7 @@
                 <div class="small-12 medium-6 large-7 columns">
                     <h4 class="subheader" style="color:#fff;">a sleek, intuitive, and powerful java foundation for faster and easier web development</h4>
                     <h6>&#160;</h6>
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">186 KB</span></a>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">178 KB</span></a>
                     <h6>&#160;</h6>
                 </div>
             </div>
@@ -132,8 +132,7 @@
 |   |   |           └── util/
 |   |   |               └── WebUtil.java
 |   |   ├── resources/
-|   |   |   ├── skeleton.properties
-|   |   |   └── skeleton.sql
+|   |   |   └── skeleton.properties
 |   |   └── webapp/
 |   |       ├── static/
 |   |       |   ├── css/
@@ -191,7 +190,7 @@
                     <h1>&#160;</h1>
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
-                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">186 KB</span></a>
+                    <a href="https://github.com/DTHENG/skeleton/archive/master.zip" class="button secondary expand">Download <span class="label secondary" style="margin-bottom:0;padding-left:3px;padding-right:0;background:none;">178 KB</span></a>
                 </div>
             </div>
         </div>

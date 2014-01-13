@@ -60,8 +60,7 @@ skeleton/
 |	|	|		    └──	util/
 |	|	|		    	└── WebUtil.java
 |	|	├── resources/
-|	|	|	├── skeleton.properties
-|	|	|	└── skeleton.sql
+|	|	|	└── skeleton.properties
 |	|	└── webapp/
 |	|		├── static/
 |	|		|	├── css/
