@@ -1,5 +1,4 @@
 <%@ page import="com.skeleton.core.Config" %>
-<%@ page import="com.skeleton.util.DatabaseUtil" %>
 <%@ page import="com.skeleton.util.WebUtil" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -38,22 +37,13 @@
                 <h6>&#160;</h6>
                 <div class="row">
                     <div class="small-12 medium-12 large-12 columns">
-                        <h5><strong>Database</strong></h5>
-                        <div class="row">
-                            <div class="small-12 medium-8 large-8 columns">
-                                <p><kbd>DatabaseUtil.count(Table.INSTAGRAM, "");</kbd></p>
-                                <p>Returns <kbd><%= DatabaseUtil.count(DatabaseUtil.Table.INSTAGRAM, "") %></kbd></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="small-12 medium-12 large-12 columns">
                         <h5><strong>Properties</strong></h5>
                         <div class="row">
                             <div class="small-12 medium-8 large-8 columns">
                                 <p>
-                                    <kbd>Config.getProperty( "database_connection" );</kbd>
+                                    <kbd>Config.getProperty( "sample_property" );</kbd>
                                 </p>
-                                <p>Returns <kbd><%= Config.getProperty("database_connection") %></kbd></p>
+                                <p>Returns <kbd><%= Config.getProperty("sample_property") %></kbd></p>
                             </div>
                         </div>
                     </div>
@@ -139,14 +129,7 @@
 |   |   |           |   ├── Config.java
 |   |   |           |   ├── SampleFilter.java
 |   |   |           |   └── SampleServlet.java
-|   |   |           ├── tables/
-|   |   |           |   ├── Instagram.java
-|   |   |           |   ├── InstagramContent.java
-|   |   |           |   ├── InstagramLike.java
-|   |   |           |   ├── InstagramType.java
-|   |   |           |   └── Table.java
 |   |   |           └── util/
-|   |   |               ├── DatabaseUtil.java
 |   |   |               └── WebUtil.java
 |   |   ├── resources/
 |   |   |   ├── skeleton.properties
