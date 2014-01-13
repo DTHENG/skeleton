@@ -57,14 +57,7 @@ skeleton/
 |	|	|		    |	├── Config.java
 |	|	|		    |	├── SampleFilter.java
 |	|	|		    |	└── SampleServlet.java
-|	|	|		    ├──	tables/
-|	|	|		    |	├── Instagram.java
-|	|	|		    |	├── InstagramContent.java
-|	|	|		    |	├── InstagramLike.java
-|	|	|		    |	├── InstagramType.java
-|	|	|		    |	└── Table.java
 |	|	|		    └──	util/
-|	|	|		    	├── DatabaseUtil.java
 |	|	|		    	└── WebUtil.java
 |	|	├── resources/
 |	|	|	├── skeleton.properties
