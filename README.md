@@ -57,7 +57,7 @@ skeleton/
 |	|	|		    |	├── Config.java
 |	|	|		    |	├── SampleFilter.java
 |	|	|		    |	└── SampleServlet.java
-|	|	|		    └──	util/
+|	|	|		    └── util/
 |	|	|		    	└── WebUtil.java
 |	|	├── resources/
 |	|	|	└── skeleton.properties
