@@ -22,5 +22,4 @@ public class WebUtil {
         HttpSession session = request.getSession();
         session.setAttribute(attr, value);
     }
-
 }
