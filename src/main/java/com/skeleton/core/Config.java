@@ -13,7 +13,7 @@ import java.util.logging.Logger;
  */
 public class Config {
 
-    private static final Logger LOG = Logger.getLogger(SampleFilter.class.getSimpleName());
+    private static final Logger LOG = Logger.getLogger(Config.class.getSimpleName());
 
     public static String getProperty(String property) {
         return getProperties().getProperty(property);
