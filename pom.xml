@@ -6,7 +6,6 @@
     <name>Skeleton4j - a sleek, intuitive, and powerful java foundation for faster and easier web development</name>
     <url>http://skeleton4j.com</url>
     <properties>
-        <test>*</test>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <googlehttpclient.version>1.17.0-rc</googlehttpclient.version>
         <jetty.version>6.1.14</jetty.version>
@@ -80,11 +79,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>14.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
