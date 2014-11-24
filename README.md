@@ -2,6 +2,8 @@
 
 Skeleton4j is a sleek, intuitive, and powerful java foundation for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
 
+`v0.1`  
+
 ### Table of contents
 
  - [Quick start](#quick-start)
