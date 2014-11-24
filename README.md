@@ -1,8 +1,8 @@
-# [skeleton4j](http://skeleton4j.com)
+#skeleton4j
 
 Skeleton4j is a sleek, intuitive, and powerful java foundation for faster and easier web development, created by [Daniel Thengvall](http://dtheng.com).
 
-To get started, check out <http://skeleton4j.com>!
+`v0.1`  
 
 ### Table of contents
 
