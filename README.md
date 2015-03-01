@@ -4,6 +4,8 @@ Skeleton4j is a sleek, intuitive, and powerful java foundation for faster and ea
 
 `v0.1`  
 
+[![CI Status](http://img.shields.io/travis/DTHENG/skeleton.svg?style=flat)](https://travis-ci.org/DTHENG/skeleton)
+
 ### Table of contents
 
  - [Quick start](#quick-start)
